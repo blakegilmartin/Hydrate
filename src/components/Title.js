@@ -7,10 +7,10 @@ const styles = StyleSheet.create({
     color: 'white',
     fontFamily: 'montserratSemiBold',
     textAlign: 'center',
-    fontSize: 23,
+    fontSize: 24,
   },
   container: {
-    flex: 1.25,
+    flex: 0.85,
     padding: 0,
     margin: 0,
   },

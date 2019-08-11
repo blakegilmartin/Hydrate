@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontFamily: 'montserrat',
     textAlign: 'center',
-    fontSize: 12,
+    fontSize: 15,
   },
 });
 

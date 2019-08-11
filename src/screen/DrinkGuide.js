@@ -26,9 +26,10 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   list: {
-    flex: 9,
+    flex: 6,
     // borderWidth: 1,
     // borderColor: 'white',
+    paddingBottom: '10%',
     width: '100%',
   },
 });
@@ -78,6 +79,46 @@ const drinkList = [
     name: 'Soda',
     coefficient: 0.6,
     image: require('../../assets/icons/Soda.png'),
+  },
+  {
+    name: 'Beer',
+    coefficient: 1.0,
+    image: require('../../assets/icons/Beer.png'),
+  },
+  {
+    name: 'Kombucha',
+    coefficient: 0.6,
+    image: require('../../assets/icons/Kombucha.png'),
+  },
+  {
+    name: 'Milk Shake',
+    coefficient: 0.6,
+    image: require('../../assets/icons/Milk_Shake.png'),
+  },
+  {
+    name: 'Milk',
+    coefficient: 0.6,
+    image: require('../../assets/icons/Milk.png'),
+  },
+  {
+    name: 'Other',
+    coefficient: 0.6,
+    image: require('../../assets/icons/Other.png'),
+  },
+  {
+    name: 'Smoothie',
+    coefficient: 0.6,
+    image: require('../../assets/icons/Smoothie.png'),
+  },
+  {
+    name: 'Strong Liquor',
+    coefficient: 0.6,
+    image: require('../../assets/icons/Strong_Liquor.png'),
+  },
+  {
+    name: 'Wine',
+    coefficient: 0.6,
+    image: require('../../assets/icons/Wine.png'),
   },
 ];
 

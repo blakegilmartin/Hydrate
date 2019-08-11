@@ -5,6 +5,7 @@ import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import HelloWorld from './src/components/HelloWorld';
 import DrinkGuide from './src/screen/DrinkGuide';
+import HomeScreen from './src/screen/HomeScreen';
 
 export default class App extends React.Component {
   state = {
@@ -41,7 +42,7 @@ export default class App extends React.Component {
           end={[0.0, 1.0]}
         >
           <View style={styles.container}>
-            <DrinkGuide></DrinkGuide>
+            <HomeScreen></HomeScreen>
           </View>
         </LinearGradient>
       </View>

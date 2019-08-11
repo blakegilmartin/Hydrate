@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   header: {
-    flex: 1.5,
+    flex: 1.25,
   },
 });
 

@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontFamily: 'montserratSemiBold',
     textAlign: 'center',
-    fontSize: 13,
+    fontSize: 15,
   },
   rowConainter: {
     flexDirection: 'row',
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontFamily: 'montserratSemiBold',
     textAlign: 'right',
-    fontSize: 13,
+    fontSize: 15,
   },
 });
 
